@@ -7,9 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <h1></h1>
       <Routes>
-        <Route path="./*" element={<Form />} />
+        <Route path="" element={<Form />} />
       </Routes>
     </BrowserRouter>
   );
