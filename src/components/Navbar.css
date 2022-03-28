@@ -18,8 +18,9 @@
   min-width: 60px;
   height: 100%;
   color: #404b69;
+  border-bottom: 3px solid #8870c900;
 }
-.navbar_option--selected {
+.navbar__navbar_list .navbar_option--selected {
   color: var(--purple500) !important;
   border-bottom: 3px solid var(--purple500);
   border-bottom: 3px solid #8870c9;
