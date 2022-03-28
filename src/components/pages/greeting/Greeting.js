@@ -8,7 +8,7 @@ const Greeting = () => {
       <section className="greeting">
         <div className="greeting__message">
           <GrStatusGood className="greeting__icon" size={200} />
-          <p>Thank You for your feedback.</p>
+          <p>Thank you for completing the information.</p>
         </div>
         <button className="greeting__button">
           <Link to="/">Back to feedback form</Link>

@@ -1,11 +1,31 @@
 .table_container {
   margin: 31.4px 21px 15px 21px;
 }
-
 .table_container__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__heading {
+  display: inline-block;
   font-size: 32px;
   color: #4d4f5c;
-  margin-bottom: 23px;
+  margin: 0px 30px 23px 0px;
+}
+.header__filter_option {
+  align-self: center;
+  color: var(--textcolor);
+  font-size: 19px;
+}
+#header__rating--select {
+  color: var(--textcolor);
+  font-size: 17px;
+  margin-left: 15px;
+  background-color: var(--purple300);
+  border: none;
+  border-radius: 3px;
+  padding: 3px;
+  outline: none;
 }
 .table_container__feedback_table {
   width: 100%;

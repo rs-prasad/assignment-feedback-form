@@ -18,7 +18,7 @@ const FormInputs = ({ handleSubmit, handleChange, error, feedback }) => {
         <div className="form__personal_details">
           <fieldset className="form__name">
             <label htmlFor="form__name__input" className="form__name__title">
-              Name
+              Customer Name
             </label>
             <input
               type="text"
