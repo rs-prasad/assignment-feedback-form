@@ -82,7 +82,7 @@
 .form__ratings .rating_options input[type="radio"]:checked:after {
   background: var(--purple500) 0% 0% no-repeat padding-box;
 }
-.form__ratings .rating_options span {
+.form__ratings .rating_options .rating__title {
   color: var(--textcolor);
   font-size: 17px;
   margin-right: 28px;
@@ -108,6 +108,13 @@
 
 .form__submit_btn:hover {
   background-color: var(--green700);
+}
+
+/* error message */
+.error__message {
+  color: var(--red500);
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 /* media queries */
