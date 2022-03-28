@@ -1,9 +1,10 @@
 import "./form.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Form = () => {
   const ratingOptions = ["Excellent", "Good", "Fair", "Bad"];
-
+  //Hooks
   const [feedback, setFeedback] = useState({
     name: "",
     email: "",
@@ -14,14 +15,25 @@ const Form = () => {
     overall: "",
   });
   const [error, setError] = useState({});
-
+  const navigate = useNavigate();
+  //function
   const saveData = () => {
     let feedbackArray = JSON.parse(
       localStorage.getItem("feedbackArray") || "[]"
     );
-    console.log(typeof feedbackArray);
     feedbackArray = [...feedbackArray, feedback];
     localStorage.setItem("feedbackArray", JSON.stringify(feedbackArray));
+    setFeedback({
+      name: "",
+      email: "",
+      phoneNumber: "",
+      service: "",
+      beverage: "",
+      cleanness: "",
+      overall: "",
+    });
+    console.log("let go");
+    navigate("/greeting");
   };
   //handles
   const handleChange = (e) => {

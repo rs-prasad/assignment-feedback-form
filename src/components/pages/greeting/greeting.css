@@ -1,0 +1,35 @@
+.greeting_container {
+  display: grid;
+  place-content: center;
+  height: 90vh;
+}
+
+.greeting {
+  place-items: center;
+  padding: 5%;
+  text-align: center;
+}
+.greeting__message p {
+  font-size: 1.5rem;
+  margin: 15px 0px;
+  white-space: nowrap;
+}
+.greeting__icon {
+  color: green;
+  height: 100px;
+}
+.greeting__button {
+  background-color: var(--purple500);
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.5s ease-out;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.greeting__button a {
+  color: white;
+}
+.greeting__button:hover {
+  transform: scale(1.1);
+}
