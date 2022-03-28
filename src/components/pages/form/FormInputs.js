@@ -47,7 +47,7 @@ const FormInputs = ({ handleSubmit, handleChange, error, feedback }) => {
               Phone number
             </label>
             <input
-              type="text"
+              type="number"
               name="phoneNumber"
               id="form__phone__input"
               placeholder="Don't include +91"

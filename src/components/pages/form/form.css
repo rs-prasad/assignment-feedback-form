@@ -109,6 +109,11 @@
 .form__submit_btn:hover {
   background-color: var(--green700);
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 /* error message */
 .form_container__form .error__message {
