@@ -1,0 +1,25 @@
+.navbar__navbar_list {
+  height: 6.7vh;
+  background: var(--white) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 2px #00000029;
+  opacity: 1;
+  list-style-type: none;
+}
+
+.navbar__navbar_list li {
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  float: left;
+  width: 9.8%;
+  height: 100%;
+  color: #404b69;
+}
+.navbar_option--selected {
+  color: var(--purple500);
+  border-bottom: 3px solid var(--purple500);
+  border-bottom: 3px solid #8870c9;
+  opacity: 1;
+  font: normal normal medium 14px/17px;
+}
