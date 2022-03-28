@@ -111,7 +111,7 @@
 }
 
 /* error message */
-.error__message {
+.form_container__form .error__message {
   color: var(--red500);
   font-size: 14px;
   margin-top: 5px;
